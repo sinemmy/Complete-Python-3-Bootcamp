@@ -72,5 +72,9 @@ You get
   top-level in two.py
   func() in one.py
   two.py is being run directly
-  
+
 Thus, when module one gets loaded, its __name__ equals "one" instead of __main__.
+
+# usually dont have the else but the first part is the run the scripts
+# define functions and classes at the top and then use the if __name__ part to
+# execute the logic of the script
